@@ -1,7 +1,7 @@
 {
   "name": "enzyme-example-ava",
   "version": "1.0.0",
-  "description": "Example project with React + Enzyme + Ava",
+  "description": "Example project with React + Enzyme + AVA",
   "scripts": {
     "test": "xo && ava"
   },

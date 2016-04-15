@@ -1,22 +1,19 @@
-import React, { PropTypes } from 'react';
+import React, {PropTypes} from 'react';
 
-const propTypes = {};
-
-const defaultProps = {};
+const propTypes = {
+	children: PropTypes.any
+};
 
 class Foo extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <div className="foo" />
-    );
-  }
+	render() {
+		return (
+			<div className="foo">
+				{this.props.children}
+			</div>
+		);
+	}
 }
 
 Foo.propTypes = propTypes;
-Foo.defaultProps = defaultProps;
 
 export default Foo;

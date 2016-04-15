@@ -6,12 +6,12 @@ import Foo from '../src/Foo';
 test('fails with an JSX contain expectation', t => {
 	var actual = shallow(<Foo/>);
 	var child = <div className="foo"/>;
-	t.truthy(actual.contains(child));
+	t.true(actual.contains(child));
 });
 
-test('fails with a class name expectation', t => {
+test('fails with a tag expectation', t => {
 	var actual = shallow(<Foo/>);
-	t.truthy(actual.is('.foo2'));
+	t.is(actual.type(), 'span');
 });
 
 test('is a success with a mount and a child expectation', t => {

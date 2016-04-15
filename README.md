@@ -6,4 +6,5 @@ Example project with [React](https://facebook.github.io/react/) + [Enzyme](http:
 - Clone this repository
 - Run `npm install`
 - Run `npm test`
-- Enjoy
+- Enjoy:
+![Output example](https://raw.githubusercontent.com/adriantoine/ava-enzyme-demo/master/.gh/output.png)

@@ -1,4 +1,4 @@
-Example project with [React](https://facebook.github.io/react/) + [Enzyme](http://airbnb.io/enzyme/) + [AVA](https://github.com/sindresorhus/ava)
+Sample project showing [AVA](https://github.com/sindresorhus/ava) unit tests for [React](https://facebook.github.io/react/) components using [Enzyme](http://airbnb.io/enzyme).
 
 ## Install and try
 
